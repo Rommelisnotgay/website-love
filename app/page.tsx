@@ -267,7 +267,7 @@ const Page = () => {
             I Love You Zainab
           </p>
           <p className={`${cairo.className} text-2xl text-black mt-6`}>
-            Happy New Year 2025 ✨
+            Happy New Year 2026 ✨
           </p>
           <p
             className={`${cairo.className} text-lg text-black mt-12`}
