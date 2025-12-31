@@ -33,7 +33,7 @@ export default function RootLayout({
           style={{
             width: "100%",
             height: "100%",
-            position: "absolute",
+            position: "fixed",
             zIndex: "-9999",
           }}
         >

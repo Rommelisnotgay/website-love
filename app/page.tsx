@@ -80,7 +80,7 @@ const Page = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-50 via-white to-pink-50">
+    <div className="min-h-screen">
       <audio ref={audioRef} loop>
         <source
           src="/Bahaa Sultan - Ma3aya  2025  بهاء سلطان - معايا (أغنية فيلم ولنا فى الخيال ... حب؟) - Craft Media  كرافت ميديا.mp3"
@@ -110,7 +110,7 @@ const Page = () => {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 py-20">
-        <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-pink-100">
+        <div className="bg-white/70 rounded-2xl shadow-2xl p-8 md:p-12 border-2 border-pink-100">
           <div
             className={`${cairo.className} text-lg md:text-xl leading-relaxed text-gray-700 text-right`}
             style={{ direction: "rtl" }}
@@ -142,7 +142,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="py-20 px-4">
+      <div className="py-20 px-4 ">
         <div className="max-w-6xl mx-auto">
           <h2
             className={`${cairo.className} text-4xl md:text-5xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500`}
@@ -170,7 +170,7 @@ const Page = () => {
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>
-                <div className="relative overflow-hidden rounded-2xl shadow-xl group">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl group  ">
                   <img
                     src={`/${src}`}
                     alt={`Memory ${index + 1}`}
@@ -184,10 +184,10 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="py-20 px-4 bg-gradient-to-b from-pink-50 to-white">
+      <div className="py-20 px-4 ">
         <div className="max-w-4xl mx-auto">
           <h2
-            className={`${cairo.className} text-4xl font-bold text-center mb-8 text-gray-800`}
+            className={`${cairo.className}  text-4xl md:text-5xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-pink-500`}
           >
             From My Heart
           </h2>
@@ -206,7 +206,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="py-20 px-4">
+      <div className="py-20 px-4 bg-white/70 mx-50 rounded-2xl my-40">
         <div className="max-w-2xl mx-auto text-center">
           <h2
             className={`${cairo.className} text-4xl font-bold mb-8 text-gray-800`}
@@ -258,7 +258,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className="py-20 px-4 bg-gradient-to-b from-white to-pink-50">
+      <div className="py-20 px-4 bg-white/70  mt-10 ">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-6xl mb-8 animate-pulse">❤️</p>
           <p
@@ -266,11 +266,11 @@ const Page = () => {
           >
             I Love You Zainab
           </p>
-          <p className={`${cairo.className} text-2xl text-gray-600 mt-6`}>
+          <p className={`${cairo.className} text-2xl text-black mt-6`}>
             Happy New Year 2025 ✨
           </p>
           <p
-            className={`${cairo.className} text-lg text-gray-500 mt-12`}
+            className={`${cairo.className} text-lg text-black mt-12`}
             style={{ direction: "rtl" }}
           >
             بحبك
